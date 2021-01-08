@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+/* Defining properties to use throughout code. :root = a scope */
+:root {
+   --card-color: hsla(30, 27%, 90%, 0.863);
+   --card-font: #1a4e02;
+   --primary-color: rgba(139, 29, 29, 0.699);
+   --secondary-color: #1c3fa8;
+   --dark-color: #4c2e25;
+   --light-color: #f4f4f4;
+   --success-color: #5cd85c;
+   --error-color: #d9534f;
+   --border-color: #934c47d8;
+}
+
+* {
+   box-sizing: border-box;
+   padding: 0;
+   margin: 0;
+}
+
+body {
+   font-family: 'Lato', sans-serif;
+   color: #333;
+   line-height: 1.6;
+   min-height: 100%;
+   min-height: 100vh;
+}
